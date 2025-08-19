@@ -3,16 +3,17 @@ POST http://localhost:5000/api/todos
 Content-Type: application/json
 
 {
-  "body": "Learn React"
+  "body": "Learn JS"
 }
 
 ### Get all todos
 GET http://localhost:5000/api/todos
 
 ### Patch todo by id
-PATCH  http://localhost:5000/api/todos/1
+PATCH  http://localhost:5000/api/todos/68a44b54033f8714aa0d0cdc
 
 ### Delete todo by id
-DELETE http://localhost:5000/api/todos/4
+DELETE http://localhost:5000/api/todos/000000000000000000000000
+
 
 
