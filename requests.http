@@ -3,7 +3,7 @@ POST http://localhost:5000/api/todos
 Content-Type: application/json
 
 {
-  "body": "Learn JS"
+  "body": "Learn Go"
 }
 
 ### Get all todos
@@ -13,7 +13,7 @@ GET http://localhost:5000/api/todos
 PATCH  http://localhost:5000/api/todos/68a44b54033f8714aa0d0cdc
 
 ### Delete todo by id
-DELETE http://localhost:5000/api/todos/000000000000000000000000
+DELETE http://localhost:5000/api/todos/68a55793a9fd95d1b3e705ab
 
 
 
